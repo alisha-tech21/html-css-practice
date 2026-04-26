@@ -1,0 +1,136 @@
+  body {
+            font-family: 'Noto Serif Display', serif; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+            margin: 0;
+            flex-direction: column; 
+        }
+        .card {
+            width: 336px;
+            height: 192px;
+            background-color: #abc9fe;
+            background-image: url('1.png'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            border: 2px solid #9a9af4;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: flex-start;  
+            align-items:flex-start;      
+            text-align: center;
+            margin: 18px 0;
+        }
+        .card-body {
+                margin-top: 128px;
+                margin-left: 75px;                
+            }
+            .card-body h3,
+        .card-body h5 {
+            margin: 2px 0;
+        }
+        .card-body h3 {
+                font-size: 11px;
+                color: #f8c8d8;          
+                text-shadow: 
+                    0 0 5px #ff00ff,    
+                    0 0 10px #ff00ff,   
+                    0 0 15px #e66f9b,   
+                    0 0 20px #e66f9b,   
+                    0 0 30px #ff00ff,   
+                    0 0 40px #ff00ff,   
+                    0 0 50px #ff00ff;   
+            }
+        .card-body h5 {
+            font-size: 8px;
+            font-family: 'The Seasons', sans-serif;
+            margin-left: 38px; 
+            color: #fcf8ff
+        }
+        .card.second-card {
+            background-image: url('p.png');
+            background-size: cover; /* Make sure the image covers the entire card */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat;
+            position: relative;  
+            }
+            .card-header {
+            margin-top: 0%;  /* Set a small top margin */
+            margin-left: 10px; /* Align to the left */
+            display: flex;
+            flex-direction: column; /* Stack h3 and h6 vertically */
+            justify-content: flex-start; /* Align items at the start */
+            align-items: flex-start; /* Align items to the left */
+        }
+            .card-header h3{
+                font-size: 22px;
+                margin-top: 0%;
+                color: #f8c8d8;          
+                text-shadow: 
+                    0 0 5px #ff00ff,    /* Pink glow */
+                    0 0 10px #ff00ff,   /* Pink glow */
+                    0 0 15px #e66f9b,   /* Lighter pink glow */
+                    0 0 20px #e66f9b,   /* Lighter pink glow */
+                    0 0 30px #ff00ff,   /* Stronger pink glow */
+                    0 0 40px #ff00ff,   /* Stronger pink glow */
+                    0 0 50px #ff00ff;   /* Larger pink glow for intensity */
+                    margin-bottom: 2px;
+            }
+            .card-header h6{
+                font-size: 7.5px;
+            font-family: 'The Seasons', sans-serif;
+            color: #fcf8ff;
+            margin-top: 0;
+            margin-bottom: 2px;
+            }
+            .second-card-body {
+            position: absolute; /* Position absolutely within the card */
+            top: 57%; /* Position it halfway down the card vertically */
+            left: 10px; /* Align to the left side of the card */
+            transform: translateY(-50%); /* Adjust vertical alignment */
+            font-family: 'The Seasons', sans-serif;
+        }
+
+        .second-card-body h4 {
+            font-size: 14px;
+            color: #f8c8d8;          
+                text-shadow: 
+                    0 0 5px #ff00ff,    /* Pink glow */
+                    0 0 10px #ff00ff,   /* Pink glow */
+                    0 0 15px #e66f9b,   /* Lighter pink glow */
+                    0 0 20px #e66f9b,   /* Lighter pink glow */
+                    0 0 30px #ff00ff,   /* Stronger pink glow */
+                    0 0 40px #ff00ff,   /* Stronger pink glow */
+                    0 0 50px #ff00ff;  
+        }
+
+        .second-card-body ul {
+            list-style: circle;
+            padding-left: 40px;
+        }
+
+        .second-card-body li {
+            font-size: 11px;
+            color: #fcf8ff;
+        }
+        .contact-info{
+            margin-top: 80px;
+            margin-left: 30px;
+        }
+        .contact-info p{
+            font-size: 11px;
+            font-family: 'The Seasons', sans-serif;
+            color: #fcf8ff;
+
+        }
+        .contact-info pre{
+            font-size: 11px;
+            font-family: 'The Seasons', sans-serif;
+            color: #fcf8ff;
+
+        }
